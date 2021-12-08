@@ -1,0 +1,35 @@
+.addRecipe{
+    padding: 0px 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form input{
+    width: 25%;
+    padding: 5px 12px;
+    margin: 4px 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.saveBtn{
+    margin-top: 15px;
+    width: 25%;
+    background-color: rgb(58, 224, 58);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 9px 15px;
+    border: none;
+}
+
+.addIngredients{
+    background-color: wheat;
+    width:40px;
+    font-weight: bold;
+    border: 0.5px solid black;
+
+}

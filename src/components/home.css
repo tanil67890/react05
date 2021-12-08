@@ -1,0 +1,107 @@
+.home{
+    margin-top: 20px;
+}
+
+.homeContent{
+    padding: 50px 50px;
+}
+
+.wrap{
+    width: 80%;
+}
+
+.flexIt{
+    display: flex;
+    margin-top:32px;
+    border-bottom: 2px solid gray;
+}
+
+.wrapImg{
+    padding-right: 40px;
+}
+
+.wrapImg img{
+    height: 230px;
+    width: 160px;  
+    border-radius: 10px;
+}
+
+.bm{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.lids{
+    font-size: 15px;
+}
+
+.wrapTxt{
+    width: 60%;
+    display: flex;
+}
+
+.wrapTxt p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    text-align: start;
+    margin-bottom: 18px;
+}
+
+.wrapTxt ol{
+    margin-block-end: 2em;
+    padding-inline-start: 20px;
+
+}
+
+.wrapTxt ol li{
+    text-align: start;
+    list-style: none;
+    font-weight: bold;
+}
+
+.wrapTxtLeft{
+
+    width: 47%;
+}
+
+.wrapTxtRight{
+
+    margin-left: 50px;
+    width: 43%;
+}
+
+.wrapIngredients{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Lobster';
+    color: #d84f57;
+    margin-top: 22px;
+}
+
+.closeBtn{
+    flex-grow: 1;
+}
+
+.closeBtn button{
+    background: rgb(228, 100, 100);
+    border: none;
+    border-radius: 40%;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.closeBtn button:hover{
+    background: rgb(252, 62, 62);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.addButton button{
+    background-color: rgb(135, 135, 235);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 15px;
+    cursor: pointer;
+}
